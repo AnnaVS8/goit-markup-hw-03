@@ -178,10 +178,13 @@ img {
 }
 .items-benefits {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 30px;
   width: 1170px;
-}
+  }
+  .benefits{
+    width: 270px;
+  }
 .title-benefits {
   display: inline-block;
   padding-bottom: 10px;

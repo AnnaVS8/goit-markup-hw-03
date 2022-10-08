@@ -181,10 +181,10 @@ img {
   align-items: baseline;
   gap: 30px;
   width: 1170px;
-  }
-  .benefits{
-    width: 270px;
-  }
+}
+.benefits {
+  width: 270px;
+}
 .title-benefits {
   display: inline-block;
   padding-bottom: 10px;
@@ -247,10 +247,15 @@ img {
 /* Стилі для сторінки Портфоліо */
 /* Портфоліо */
 .btn {
+  padding: 6px 22px;
   background-color: var(--section-bg-color);
+  border: 0;
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .decision {
   color: var(--primary-color);
